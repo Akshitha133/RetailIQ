@@ -1,0 +1,28 @@
+feature,feature_value,shap_value,impact
+price_difference,-4.780000000000001,-10.359675,Decreases predicted demand
+week_of_year,4.0,-6.400683,Decreases predicted demand
+Price,88.06,-5.963486,Decreases predicted demand
+demand_growth_pct,-4.246153846153848,-4.4595623,Decreases predicted demand
+rolling_std_7,71.60174246350104,4.0404544,Increases predicted demand
+lag_28,127.0,3.9449503,Increases predicted demand
+Competitor Pricing,92.84,3.7336633,Increases predicted demand
+rolling_mean_28,116.07142857142856,-3.5093791,Decreases predicted demand
+lag_1,97.0,-2.9098485,Decreases predicted demand
+lag_7,191.0,2.3216486,Increases predicted demand
+Category,2.0,-1.9765954,Decreases predicted demand
+demand_change_7,-4.928571428571431,-1.3973309,Decreases predicted demand
+Product ID,0.0,-1.3444245,Decreases predicted demand
+year,2022.0,1.1694545,Increases predicted demand
+Discount,15.0,-1.1497917,Decreases predicted demand
+Region,2.0,-1.123971,Decreases predicted demand
+day_of_week,5.0,-0.9741827,Decreases predicted demand
+rolling_mean_7,111.14285714285714,0.93999016,Increases predicted demand
+Seasonality,0.0,0.9235923,Increases predicted demand
+day_of_month,29.0,-0.60138726,Decreases predicted demand
+month,1.0,-0.31883723,Decreases predicted demand
+Store ID,0.0,-0.3049472,Decreases predicted demand
+Holiday/Promotion,1.0,-0.3018952,Decreases predicted demand
+is_weekend,1.0,-0.24261025,Decreases predicted demand
+price_difference_pct,-5.148642826367946,0.16602507,Increases predicted demand
+Weather Condition,2.0,-0.035357375,Decreases predicted demand
+quarter,1.0,0.011964515,Increases predicted demand

@@ -1,0 +1,28 @@
+feature,mean_abs_shap
+rolling_std_7,3.4482012
+demand_change_7,3.3275843
+Product ID,3.3123713
+Competitor Pricing,3.1103263
+Price,3.096219
+rolling_mean_28,3.0660958
+lag_28,3.058815
+lag_7,3.0500126
+demand_growth_pct,3.0394845
+price_difference,2.9547384
+lag_1,2.8008587
+rolling_mean_7,2.6747336
+price_difference_pct,2.6138694
+week_of_year,2.2712128
+day_of_month,2.074013
+Store ID,1.8000053
+Category,1.3103039
+day_of_week,1.2482867
+Weather Condition,1.173923
+Region,1.0795778
+Discount,1.0644522
+Seasonality,0.83478093
+month,0.684184
+year,0.5447432
+Holiday/Promotion,0.3733437
+is_weekend,0.23132864
+quarter,0.09763258

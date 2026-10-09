@@ -1,0 +1,50 @@
+
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node.js
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Large datasets and model artifacts
+data/
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# Logs and OS files
+*.log
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+
+# Backend virtual environment
+backend/venv/
+backend/.venv/
+

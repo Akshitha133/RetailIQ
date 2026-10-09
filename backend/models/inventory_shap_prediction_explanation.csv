@@ -1,0 +1,15 @@
+feature,feature_value,shap_value,impact
+Inventory Level,121.0,0.24666873714099813,Supports predicted risk
+Current Inventory Coverage Days,0.9072035212491402,0.16597863792410059,Supports predicted risk
+Stock Pressure,1.0932533389232195,0.13903204854702433,Supports predicted risk
+Units Sold,25.0,0.026320234226930545,Supports predicted risk
+Demand Growth %,-3.146067415730337,0.016542048486497655,Supports predicted risk
+lag_7,97.0,0.014529583209593144,Supports predicted risk
+rolling_mean_7,123.14285714285714,-0.01025685935477855,Reduces predicted risk
+lag_1,71.0,-0.006763260341685366,Reduces predicted risk
+rolling_mean_28,127.14285714285714,-0.006392356211235697,Reduces predicted risk
+rolling_std_7,88.21834384342178,0.002874180989178391,Supports predicted risk
+Demand Trend,-4.0,-0.0026658469026599302,Reduces predicted risk
+Predicted Demand,133.3769,0.0006750883722774273,Supports predicted risk
+lag_28,107.0,0.0006292128769689653,Supports predicted risk
+Demand Volatility,18.58314648635514,0.0005715387522530564,Supports predicted risk

@@ -1,0 +1,279 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+.sales-page {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  color: #202938;
+}
+
+.sales-header {
+  margin-bottom: 28px;
+}
+
+.sales-eyebrow {
+  margin: 0 0 8px;
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.sales-header h1 {
+  margin: 0;
+  font-size: clamp(26px, 4vw, 36px);
+  font-weight: 750;
+}
+
+.sales-subtitle {
+  color: #64748b;
+  line-height: 1.6;
+}
+
+.sales-card {
+  margin-bottom: 24px;
+  padding: 24px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(15, 23, 42, 0.04);
+}
+
+.sales-section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.sales-section-heading h2 {
+  margin: 0 0 8px;
+  font-size: 21px;
+}
+
+.sales-section-heading p {
+  margin: 0;
+  color: #64748b;
+  line-height: 1.5;
+}
+
+.sales-upload-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.sales-file-label {
+  font-weight: 600;
+}
+
+.sales-upload-form input[type="file"] {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px;
+  border: 1px dashed #cbd5e1;
+  border-radius: 10px;
+  background: #f8fafc;
+}
+
+.sales-file-name,
+.sales-help {
+  margin: 0;
+  color: #64748b;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.sales-help code {
+  padding: 2px 5px;
+  background: #f1f5f9;
+  border-radius: 4px;
+  color: #334155;
+}
+
+.sales-button {
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 9px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.sales-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.sales-primary-button {
+  background: #2563eb;
+  color: #fff;
+}
+
+.sales-secondary-button {
+  background: #eff6ff;
+  color: #1d4ed8;
+}
+
+.sales-alert {
+  margin-bottom: 18px;
+  padding: 14px 16px;
+  border-radius: 10px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.sales-success {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  color: #166534;
+}
+
+.sales-error {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #991b1b;
+}
+
+.sales-warning {
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  color: #92400e;
+}
+
+.sales-subheading {
+  margin: 26px 0 16px;
+  font-size: 17px;
+}
+
+.sales-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.sales-metric {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+  padding: 18px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+}
+
+.sales-metric span {
+  color: #64748b;
+  font-size: 13px;
+}
+
+.sales-metric strong {
+  font-size: 23px;
+  overflow-wrap: anywhere;
+}
+
+.sales-product-list {
+  margin-top: 24px;
+}
+
+.sales-product-list h3 {
+  font-size: 15px;
+}
+
+.sales-product-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.sales-product-tag {
+  padding: 7px 11px;
+  border-radius: 20px;
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-size: 13px;
+}
+
+.sales-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+}
+
+.sales-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 14px;
+}
+
+.sales-table th,
+.sales-table td {
+  padding: 13px 15px;
+  border-bottom: 1px solid #e2e8f0;
+  white-space: nowrap;
+}
+
+.sales-table th {
+  background: #f8fafc;
+  color: #475569;
+  font-weight: 700;
+}
+
+.sales-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.sales-table tbody tr:hover {
+  background: #f8fafc;
+}
+
+.sales-empty,
+.sales-loading {
+  padding: 14px 0;
+  color: #64748b;
+  line-height: 1.6;
+}
+
+.sales-footer {
+  padding: 12px 0 24px;
+  color: #94a3b8;
+  text-align: center;
+  font-size: 12px;
+}
+
+@media (max-width: 800px) {
+  .sales-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .sales-page {
+    padding: 20px 14px;
+  }
+
+  .sales-card {
+    padding: 17px;
+  }
+
+  .sales-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .sales-section-heading {
+    align-items: flex-start;
+  }
+}

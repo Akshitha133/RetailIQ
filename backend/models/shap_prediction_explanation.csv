@@ -1,0 +1,11 @@
+feature,feature_value,shap_value,impact
+lag_1,11.0,-4.7814727,Decreases prediction
+day_of_week,1.0,-2.3772407,Decreases prediction
+lag_28,42.0,1.1220725,Increases prediction
+day_of_month,14.0,-0.72157025,Decreases prediction
+lag_7,11.0,-0.47191495,Decreases prediction
+rolling_mean_28,26.535714285714285,-0.34828365,Decreases prediction
+year,2015.0,-0.1464524,Decreases prediction
+product_code,18.0,-0.12500659,Decreases prediction
+rolling_mean_7,25.142857142857142,-0.024269812,Decreases prediction
+month,4.0,0.022048064,Increases prediction
